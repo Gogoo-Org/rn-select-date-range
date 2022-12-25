@@ -1,6 +1,6 @@
 {
   "name": "@statsministeriet/rn-select-date-range",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "A simple and fully customizable React Native date range picker component. Support react 18 and React Native 70",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
