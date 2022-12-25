@@ -1,7 +1,7 @@
 {
-  "name": "rn-select-date-range",
-  "version": "3.3.0",
-  "description": "A simple and fully customizable React Native date range picker component",
+  "name": "@gogoo-org/rn-select-date-range",
+  "version": "4.0.0",
+  "description": "A simple and fully customizable React Native date range picker component. Support react 18 and React Native 70",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dilipchandima/rn-date-range-picker.git"
+    "url": "git+https://github.com/Gogoo-Org/rn-select-date-range.git"
   },
   "keywords": [
     "react-native",
@@ -37,17 +37,17 @@
   "author": "Dileepa Chandima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dilipchandima/rn-date-range-picker/issues"
+    "url": "https://github.com/Gogoo-Org/rn-select-date-range/issues"
   },
-  "homepage": "https://github.com/dilipchandima/rn-date-range-picker#readme",
+  "homepage": "https://github.com/Gogoo-Org/rn-select-date-range",
   "peerDependencies": {
-    "react": "17.0.2",
-    "react-native": "0.66.2"
+    "react": "18",
+    "react-native": "0.70"
   },
   "devDependencies": {
-    "@types/react": "^17.0.37",
-    "@types/react-native": "^0.66.6",
-    "metro-react-native-babel-preset": "^0.66.2",
+    "@types/react": "^18",
+    "@types/react-native": "^0.70",
+    "metro-react-native-babel-preset": "^0.70",
     "typescript": "^4.3.4"
   },
   "dependencies": {
