@@ -1,5 +1,5 @@
 {
-  "name": "@gogoo-org/rn-select-date-range",
+  "name": "@statsministeriet/rn-select-date-range",
   "version": "4.0.0",
   "description": "A simple and fully customizable React Native date range picker component. Support react 18 and React Native 70",
   "main": "./lib/cjs/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Gogoo-Org/rn-select-date-range.git"
+    "url": "git+https://github.com/statsministeriet/rn-select-date-range.git"
   },
   "keywords": [
     "react-native",
@@ -37,9 +37,9 @@
   "author": "Dileepa Chandima",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gogoo-Org/rn-select-date-range/issues"
+    "url": "https://github.com/statsministeriet/rn-select-date-range/issues"
   },
-  "homepage": "https://github.com/Gogoo-Org/rn-select-date-range",
+  "homepage": "https://github.com/statsministeriet/rn-select-date-range",
   "peerDependencies": {
     "react": "18",
     "react-native": "0.70"
