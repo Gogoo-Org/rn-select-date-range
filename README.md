@@ -9,13 +9,13 @@ A simple React Native date range picker component
 ## Installing
 
 ```
-npm install @gogoo-org/rn-select-date-range
+npm install @statsministeriet/rn-select-date-range
 ```
 
 or
 
 ```
-yarn add @gogoo-org/rn-select-date-range
+yarn add @statsministeriet/rn-select-date-range
 ```
 
 ---
