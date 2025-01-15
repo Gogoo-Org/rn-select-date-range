@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import {
   View,
   Text,
@@ -46,7 +46,9 @@ const DateRangePicker = ({
   onConfirm,
   onClear,
   clearBtnTitle = "Clear",
-  confirmBtnTitle = "OK"
+  confirmBtnTitle = "OK",
+  firstDate,
+  secondDate
 }: IProps) => {
   const [selectedDate, setSelectedDate] = useState(moment());
 
@@ -119,7 +121,16 @@ const DateRangePicker = ({
       onConfirm();
     }
   }
-
+ useEffect(() => {
+    if (firstDate && secondDate) {
+      setRange({ firstDate, secondDate });
+    }
+  }, [firstDate, secondDate]);
+    const handleSelectDateRange = (startDate: moment.Moment, endDate: moment.Moment) => {
+    const response: IResponse = { firstDate: startDate, secondDate: endDate };
+    setRange(response);
+    onSelectDateRange(response);
+  };
   const isDateSelected = () => firstDate === null || secondDate === null;
 
   return (
